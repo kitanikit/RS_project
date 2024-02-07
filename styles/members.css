@@ -1,0 +1,22 @@
+.main__members-block {
+  margin-bottom: 86px;
+  > .members__title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 72px;
+    > div {
+      color: #e38c1d;
+      font-family: "Exo2.0", serif;
+      font-size: 25px;
+      font-weight: 500;
+    }
+  }
+  > .members__list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,48 @@
+.main__keyIndicators-block {
+  > .keyIndicators__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 86px;
+    > div {
+      color: #e38c1d;
+      font-family: "Exo2.0", serif;
+      font-size: 25px;
+      font-weight: 500;
+    }
+  }
+  > .indicators__block {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 68px;
+    > .indicator__block-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      > .indicator__item-value {
+        color: #e28909;
+        font-family: "Exo2.0", serif;
+        font-size: 34px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        > span {
+          font-size: 18px;
+        }
+      }
+      > .indicator__item-text {
+        color: #000000;
+        font-family: "Exo 2", sans-serif;
+        font-size: 13.5px;
+        font-weight: 900;
+        line-height: 1.2;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

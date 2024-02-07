@@ -1,0 +1,49 @@
+.header__block {
+  display: flex;
+  width: 100%;
+  padding: 15px 52px 28px 52px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.header__actions-block {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  position: relative;
+}
+
+.change__lang-block {
+  align-self: flex-end;
+  > img {
+    cursor: pointer;
+  }
+}
+
+.contactUs-block {
+  display: flex;
+  align-items: center;
+  > .contactUS__phone {
+    text-decoration: none;
+    color: #fd8c00;
+    line-height: 24px;
+    margin-right: 14px;
+    margin-left: 4px;
+  }
+  > .contactUs__button {
+    background-image: url("../images/subscribe_button.png");
+    color: white;
+    width: 156px;
+    height: 24px;
+    cursor: pointer;
+    line-height: 24px;
+    text-align: center;
+  }
+}
+
+.search__button {
+  position: absolute;
+  right: 0;
+  bottom: -48px;
+  cursor: pointer;
+}

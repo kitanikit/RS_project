@@ -1,0 +1,12 @@
+.menu__block {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0 158px 12px 10%;
+  box-sizing: border-box;
+  > .menuItem a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
+}
