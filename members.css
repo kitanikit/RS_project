@@ -1,0 +1,62 @@
+.main__members-block {
+  margin-bottom: 86px;
+
+  > .members__title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 72px;
+
+    > div {
+      color: #e38c1d;
+      font-family: "Exo2.0", serif;
+      font-size: 25px;
+      font-weight: 500;
+    }
+  }
+}
+  >.members__list {
+    background: url('images/steel.cover.svg') no-repeat center center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px; /* Отступы вокруг логотипов внутри контейнера */
+  }
+
+.logo {
+  position: relative;
+  width: 100px; /* Ширина блока с логотипом */
+  height: 100px; /* Высота блока с логотипом */
+  margin: 10px; /* Отступы между логотипами */
+}
+
+.logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.logo .bw-logo {
+  opacity: 1;
+}
+
+.logo .color-logo {
+  opacity: 0;
+}
+
+.logo:hover .bw-logo {
+  opacity: 0;
+}
+
+.logo:hover .color-logo {
+  opacity: 1;
+}
+
+
+
+
+

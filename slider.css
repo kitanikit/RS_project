@@ -1,0 +1,47 @@
+.main__slider-block {
+  position: relative;
+  width: 100%;
+  background-image: url("../images/mask.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 289px;
+  margin-bottom: 56px;
+  > .slider__opacity-block {
+    padding: 42px 0 0 42px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 385px;
+    background: rgba(253, 140, 0, 0.5);
+    > .slider__title {
+      color: #ffffff;
+      font-family: "Exo2.0", serif;
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 24px;
+      > span {
+        text-transform: uppercase;
+      }
+    }
+    > .slider__text {
+      color: #ffffff;
+      font-family: "Exo2.0", serif;
+      font-size: 14px;
+    }
+  }
+}
+
+.slider__pagenator {
+  display: flex;
+  gap: 4px;
+  position: absolute;
+  bottom: 18px;
+  right: 24px;
+}
+
+/* пример подключения шрифта из папки fonts */
+@font-face {
+  font-family: "Exo2.0";
+  src: url("../fonts/exo2_0_regular.otf");
+  font-style: normal;
+  font-weight: normal;
+}

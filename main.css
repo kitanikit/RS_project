@@ -1,0 +1,39 @@
+@import url("cards.css");
+@import url("header.css");
+@import url("headerMenu.css");
+@import url("slider.css");
+@import url("members.css");
+@import url("keyIndicators.css");
+@import url("footer.css");
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e38c1d;
+  opacity: 0.5;
+  border: 0px none #ffffff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fd8c00;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #fd8c00;
+}
+::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
