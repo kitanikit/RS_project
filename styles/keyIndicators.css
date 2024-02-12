@@ -44,5 +44,8 @@
         text-transform: uppercase;
       }
     }
+    > .indicator__block-item:last-child {
+      margin-top: 16px;
+    }
   }
 }
